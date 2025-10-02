@@ -6,7 +6,7 @@
 
 int main() {
 
-    int t, b, r;
+    int t, b = 1, r;
 
     printf("*** Movimentação de xadrez ***\n");
     printf("Escolha uma opção.\n");
@@ -16,9 +16,21 @@ int main() {
     scanf("%d", &b, &r, &t);
 
 
-    //while bispo
-    //do while rainha
-    for (int t = 0; t < 5; t++)
+    while (b <= 5)
+    {
+        printf("Direita, esquerda\n", b);
+        b++;
+    }
+
+
+    do 
+    {
+       printf("Esquerda\n", r);
+       r++;
+    } while (r <= 8);
+
+
+    for (int t = 0; t < 5; t++);
     {
         printf("Direita\n");
     } 
