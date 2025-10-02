@@ -16,7 +16,7 @@ int main() {
     scanf("%d", &b, &r, &t);
 
 
-    //while bisco
+    //while bispo
     //do while rainha
     for (int t = 0; t < 5; t++)
     {
