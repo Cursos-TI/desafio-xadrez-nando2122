@@ -6,29 +6,26 @@
 
 int main() {
 
-    int torre, bispo, rainha;
+    int t, b, r;
 
     printf("*** Movimentação de xadrez ***\n");
     printf("Escolha uma opção.\n");
-    printf("1. Bispo\n", bispo); // 5 casas a diagonal (direita, esquerda 5x)
-    printf("2. Torre\n", torre); // 5 casas a direita
-    printf("3. Rainha\n", rainha); //8 casas a esquerda
-    scanf("%d", &bispo, &rainha, &torre);
+    printf("1. Bispo\n", b); // 5 casas a diagonal (direita, esquerda 5x)
+    printf("2. Torre\n", t); // 5 casas a direita
+    printf("3. Rainha\n", r); //8 casas a esquerda
+    scanf("%d", &b, &r, &t);
 
 
-    //while
-    //do while
-    //for
+    //while bisco
+    //do while rainha
+    for (int t = 0; t < 5; t++)
+    {
+        printf("Direita\n");
+    } 
 
-
-    // Nível Novato - Movimentação das Peças
-    // Sugestão: Declare variáveis constantes para representar o número de casas que cada peça pode se mover.
 
     // Implementação de Movimentação do Bispo
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação do Bispo em diagonal.
-
-    // Implementação de Movimentação da Torre
-    // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Torre para a direita.
 
     // Implementação de Movimentação da Rainha
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Rainha para a esquerda.
